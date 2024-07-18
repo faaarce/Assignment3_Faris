@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="order_cell" rowHeight="213" id="KGk-i7-Jjw" customClass="OrderTableViewCell" customModule="Exercise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="555" height="214"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="555" height="214"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="FhK-Ru-DXF">
+                        <rect key="frame" x="20" y="10" width="110" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="110" id="Uj9-nl-dV8"/>
+                            <constraint firstAttribute="width" constant="110" id="azE-Ed-85f"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7D-vc-Sii">
+                        <rect key="frame" x="148" y="10" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelvLabelLabelLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IUa-te-iV7">
+                        <rect key="frame" x="148" y="66.333333333333329" width="391" height="40.666666666666671"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="752" text="Shortbread, chocolate turtle cookies, and red velvet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeC-KV-tid">
+                        <rect key="frame" x="148" y="39" width="384" height="19.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FhK-Ru-DXF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="6D5-0W-Led"/>
+                    <constraint firstItem="TeC-KV-tid" firstAttribute="top" secondItem="o7D-vc-Sii" secondAttribute="bottom" constant="8" id="9Ra-79-nqK"/>
+                    <constraint firstItem="FhK-Ru-DXF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="KMc-bS-cfQ"/>
+                    <constraint firstItem="IUa-te-iV7" firstAttribute="leading" secondItem="FhK-Ru-DXF" secondAttribute="trailing" constant="18" id="TWM-Ja-EAP"/>
+                    <constraint firstItem="o7D-vc-Sii" firstAttribute="leading" secondItem="FhK-Ru-DXF" secondAttribute="trailing" constant="18" id="VSu-9r-wmN"/>
+                    <constraint firstAttribute="bottom" secondItem="FhK-Ru-DXF" secondAttribute="bottom" constant="10" id="ZTM-dy-d24"/>
+                    <constraint firstItem="IUa-te-iV7" firstAttribute="top" secondItem="TeC-KV-tid" secondAttribute="bottom" constant="8" id="d3z-rp-4JK"/>
+                    <constraint firstAttribute="trailing" secondItem="IUa-te-iV7" secondAttribute="trailing" constant="16" id="hWB-NP-5Sc"/>
+                    <constraint firstItem="TeC-KV-tid" firstAttribute="leading" secondItem="FhK-Ru-DXF" secondAttribute="trailing" constant="18" id="pJw-vd-u0N"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="IUa-te-iV7" secondAttribute="bottom" constant="8" id="u9H-pQ-eM1"/>
+                    <constraint firstItem="o7D-vc-Sii" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="vti-kd-UhW"/>
+                    <constraint firstAttribute="trailing" secondItem="TeC-KV-tid" secondAttribute="trailing" constant="23" id="yvm-9W-Ngi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descLabel" destination="TeC-KV-tid" id="hbF-kR-L5v"/>
+                <outlet property="foodName" destination="o7D-vc-Sii" id="mVN-4W-pUN"/>
+                <outlet property="locationLabel" destination="IUa-te-iV7" id="vxv-HT-VuZ"/>
+                <outlet property="orderImage" destination="FhK-Ru-DXF" id="ooF-2F-Xsb"/>
+            </connections>
+            <point key="canvasLocation" x="-222.13740458015266" y="64.788732394366207"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="food" width="110" height="110"/>
+    </resources>
+</document>

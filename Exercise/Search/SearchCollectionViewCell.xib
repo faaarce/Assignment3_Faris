@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="search_cell" id="gTV-IL-0wX" customClass="SearchCollectionViewCell" customModule="Exercise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="198"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="198"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="yp2-SQ-uxq">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="1nf-Ne-emU"/>
+                            <constraint firstAttribute="width" constant="160" id="MzW-fu-tA0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="12"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split Bread - Russian" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElD-fu-SDZ">
+                        <rect key="frame" x="0.0" y="150" width="152" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0039215686274509803" green="0.058823529411764705" blue="0.027450980392156862" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3e-7c-wnv">
+                        <rect key="frame" x="0.0" y="174" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0039215686269999999" green="0.058823529409999999" blue="0.027450980390000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ElD-fu-SDZ" secondAttribute="trailing" constant="8" id="3hs-cr-JEK"/>
+                <constraint firstItem="ElD-fu-SDZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5fH-46-FRV"/>
+                <constraint firstItem="i3e-7c-wnv" firstAttribute="top" secondItem="ElD-fu-SDZ" secondAttribute="bottom" constant="4" id="EsZ-py-32h"/>
+                <constraint firstItem="i3e-7c-wnv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KwQ-EZ-41V"/>
+                <constraint firstItem="ElD-fu-SDZ" firstAttribute="top" secondItem="yp2-SQ-uxq" secondAttribute="bottom" constant="10" id="Tdp-Qr-Fml"/>
+                <constraint firstItem="yp2-SQ-uxq" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Wm8-lJ-meg"/>
+                <constraint firstAttribute="trailing" secondItem="yp2-SQ-uxq" secondAttribute="trailing" id="fbs-A2-H0w"/>
+                <constraint firstItem="yp2-SQ-uxq" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kg2-TP-DIE"/>
+            </constraints>
+            <connections>
+                <outlet property="foodImage" destination="yp2-SQ-uxq" id="Ecl-Vh-UuG"/>
+                <outlet property="foodLabel" destination="ElD-fu-SDZ" id="gWd-bf-1o2"/>
+                <outlet property="location" destination="i3e-7c-wnv" id="Pgq-r2-JCH"/>
+            </connections>
+            <point key="canvasLocation" x="114" y="21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="background" width="200" height="160"/>
+    </resources>
+</document>

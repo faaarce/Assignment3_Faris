@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="96" id="KGk-i7-Jjw" customClass="CheckoutItemViewCell" customModule="Exercise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="96"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ayl-EM-uTh">
+                        <rect key="frame" x="20" y="20" width="24" height="24"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIz-YL-H7d">
+                                <rect key="frame" x="8.3333333333333321" y="2.3333333333333321" width="7.3333333333333321" height="19.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.97254901960784312" green="0.71372549019607845" blue="0.29803921568627451" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="OIz-YL-H7d" firstAttribute="centerY" secondItem="ayl-EM-uTh" secondAttribute="centerY" id="C4v-Yc-9vW"/>
+                            <constraint firstItem="OIz-YL-H7d" firstAttribute="centerX" secondItem="ayl-EM-uTh" secondAttribute="centerX" id="M0L-ZG-TIf"/>
+                            <constraint firstAttribute="height" constant="24" id="Spv-tE-zb6"/>
+                            <constraint firstAttribute="width" constant="24" id="rGl-oG-DAs"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cookie Sandwich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jVA-0T-I0N">
+                        <rect key="frame" x="60" y="20" width="139" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shortbread, chocolate turtle cookies, and red velvet." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyW-7J-LOe">
+                        <rect key="frame" x="60" y="50" width="195" height="33.666666666666657"/>
+                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                        <color key="textColor" red="0.0039215686274509803" green="0.058823529411764705" blue="0.027450980392156862" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AUD$10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q4H-aR-NVD">
+                        <rect key="frame" x="262" y="20" width="53" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.97254901960784312" green="0.71372549019607845" blue="0.29803921568627451" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Q4H-aR-NVD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="4jo-Mw-7jy"/>
+                    <constraint firstAttribute="trailing" secondItem="Q4H-aR-NVD" secondAttribute="trailing" constant="20" id="Cxd-Go-RS9"/>
+                    <constraint firstItem="oyW-7J-LOe" firstAttribute="leading" secondItem="jVA-0T-I0N" secondAttribute="leading" id="OBY-qP-Ivi"/>
+                    <constraint firstAttribute="bottom" secondItem="ayl-EM-uTh" secondAttribute="bottom" constant="54" id="Ork-ZE-9Hu"/>
+                    <constraint firstAttribute="trailing" secondItem="oyW-7J-LOe" secondAttribute="trailing" constant="80" id="R7f-vu-hSW"/>
+                    <constraint firstItem="jVA-0T-I0N" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="b9h-EO-6jx"/>
+                    <constraint firstItem="oyW-7J-LOe" firstAttribute="top" secondItem="jVA-0T-I0N" secondAttribute="bottom" constant="6" id="bZe-gh-r96"/>
+                    <constraint firstItem="jVA-0T-I0N" firstAttribute="centerY" secondItem="ayl-EM-uTh" secondAttribute="centerY" id="kGL-nu-5oC"/>
+                    <constraint firstItem="jVA-0T-I0N" firstAttribute="leading" secondItem="ayl-EM-uTh" secondAttribute="trailing" constant="16" id="p3t-P5-sNo"/>
+                    <constraint firstItem="ayl-EM-uTh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="sDI-kb-cEt"/>
+                    <constraint firstItem="ayl-EM-uTh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="zjj-Z4-Jdm"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="foodDetail" destination="oyW-7J-LOe" id="PfJ-Qs-O6i"/>
+                <outlet property="foodName" destination="jVA-0T-I0N" id="Vzg-s0-u1e"/>
+                <outlet property="priceLabel" destination="Q4H-aR-NVD" id="ESJ-Qj-9rE"/>
+                <outlet property="quantityLabel" destination="OIz-YL-H7d" id="h6B-Sj-IOU"/>
+                <outlet property="quantityView" destination="ayl-EM-uTh" id="2MA-Q5-o0b"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="47.887323943661976"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

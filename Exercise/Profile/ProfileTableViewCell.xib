@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="profile_cell" rowHeight="104" id="KGk-i7-Jjw" customClass="ProfileTableViewCell" customModule="Exercise" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="72"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.text.rectangle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7Vb-bD-4ZI">
+                        <rect key="frame" x="20" y="25.666666666666664" width="24" height="21.000000000000007"/>
+                        <color key="tintColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="Eu5-gE-M35"/>
+                            <constraint firstAttribute="height" constant="24" id="dCM-vu-UWi"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Change Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3T-7D-Ac8">
+                        <rect key="frame" x="60" y="15.999999999999998" width="130" height="19.333333333333329"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change your password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yai-tE-0Z3">
+                        <rect key="frame" x="60" y="38.333333333333336" width="148" height="17.666666666666664"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45w-Ei-7AW">
+                        <rect key="frame" x="265" y="24" width="70" height="24"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uMi-s0-0t0">
+                                <rect key="frame" x="0.0" y="0.0" width="48" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Rzu-A6-FRK"/>
+                                    <constraint firstAttribute="width" constant="46" id="ym0-2y-m9Q"/>
+                                </constraints>
+                                <color key="onTintColor" red="0.93333333333333335" green="0.65490196078431373" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                            </switch>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="YX9-q3-zmy">
+                                <rect key="frame" x="46" y="2" width="24" height="20.333333333333332"/>
+                                <color key="tintColor" red="0.0039215686274509803" green="0.058823529411764705" blue="0.027450980392156862" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="AqF-4n-Sse"/>
+                                    <constraint firstAttribute="width" constant="24" id="Gyk-Ad-7y3"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Yai-tE-0Z3" secondAttribute="bottom" constant="16" id="L3r-Q2-MaV"/>
+                    <constraint firstItem="Yai-tE-0Z3" firstAttribute="top" secondItem="C3T-7D-Ac8" secondAttribute="bottom" constant="3" id="NQf-B1-RYR"/>
+                    <constraint firstItem="Yai-tE-0Z3" firstAttribute="leading" secondItem="7Vb-bD-4ZI" secondAttribute="trailing" constant="16" id="bC6-U3-m52"/>
+                    <constraint firstItem="C3T-7D-Ac8" firstAttribute="leading" secondItem="7Vb-bD-4ZI" secondAttribute="trailing" constant="16" id="d8e-mw-Ews"/>
+                    <constraint firstItem="45w-Ei-7AW" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="g3c-NN-MOw"/>
+                    <constraint firstItem="7Vb-bD-4ZI" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="n7d-AW-vx4"/>
+                    <constraint firstItem="7Vb-bD-4ZI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="sKg-bi-NY7"/>
+                    <constraint firstItem="C3T-7D-Ac8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="tuJ-yr-34q"/>
+                    <constraint firstAttribute="trailing" secondItem="45w-Ei-7AW" secondAttribute="trailing" constant="20" id="xLN-LX-nbd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imageSetting" destination="7Vb-bD-4ZI" id="jtw-3h-BQR"/>
+                <outlet property="settingsButton" destination="YX9-q3-zmy" id="hM9-RF-4SK"/>
+                <outlet property="subtitleSetting" destination="Yai-tE-0Z3" id="s6W-Fd-Se4"/>
+                <outlet property="titleSetting" destination="C3T-7D-Ac8" id="eN4-Vg-Lvt"/>
+                <outlet property="toggleButton" destination="uMi-s0-0t0" id="bvN-Su-hyN"/>
+            </connections>
+            <point key="canvasLocation" x="100" y="69.718309859154928"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <image name="person.text.rectangle" catalog="system" width="128" height="93"/>
+    </resources>
+</document>
