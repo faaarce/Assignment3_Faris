@@ -1,4 +1,11 @@
 # Food App
+
+<div align="center">
+       <h1> <img src="https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/Group%204%403x.png" width="80px"><br/>FoodApp</h1>
+     </div>
+<p align="center"> <a href="https://twitter.com/farisariep" target="_blank"><img alt="" src="https://img.shields.io/badge/Twitter-1DA1F2?style=normal&logo=twitter&logoColor=white" style="vertical-align:center" /></a> <a href="https://www.linkedin.com/in/farisarie/" target="_blank"><img alt="" src="https://img.shields.io/badge/LinkedIn-0077B5?style=normal&logo=linkedin&logoColor=white" style="vertical-align:center" /></a> </p>
+
+
 FoodApp is a mobile application that allows users to explore, select, and order their favorite dishes right from their smartphones. Built with Swift and UIKit, this application offers a sleek user experience with robust functionality.
 
 ## Screenshots
