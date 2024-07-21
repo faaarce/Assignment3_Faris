@@ -7,10 +7,12 @@ FoodApp is a mobile application that allows users to explore, select, and order 
 
 ## Screenshots
 
-| Launch Screen | Onboarding | Login | Home | Checkout | Profile | 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/faaarce/yale/blob/main/RocketSim_Recording_iPhone_15_Pro_6.1_2024-07-21_03.14.45.gif?raw=true" alt="Library" width="200"/> | <img src="/Screenshots/Album.png?raw=true" alt="Album" width="200"/> | <img src="/Screenshots/Player.png?raw=true" alt="Player" width="200"/>  | <img src="/Screenshots/Queue.png?raw=true" alt="Queue" width="200"/> 
-| <img src="/Screenshots/Tracks%20(iPad).png?raw=true" alt="Tracks" width="200"/> | <img src="/Screenshots/Album%20(iPad).png?raw=true" alt="Album" width="200"/> | <img src="/Screenshots/Player%20(iPad).png?raw=true" alt="Player" width="200"/>  | <img src="/Screenshots/Artists%20(iPad).png?raw=true" alt="Artists" width="200"/> 
+| ![Onboarding](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/onboardings.gif?raw=true) | ![Login](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/login.gif?raw=true) | ![Home](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/home.gif?raw=true) | ![Checkout](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/checkout.gif?raw=true) | ![Profile](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/profile.gif?raw=true) |
+|:---:|:---:|:---:|:---:|:---:|
+| Onboarding | Login | Home | Checkout | Profile |
+
+| ![Album](/Screenshots/Album.png?raw=true) | ![Player](/Screenshots/Player.png?raw=true) | ![Queue](/Screenshots/Queue.png?raw=true) |
+| ![Tracks (iPad)](/Screenshots/Tracks%20(iPad).png?raw=true) | ![Album (iPad)](/Screenshots/Album%20(iPad).png?raw=true) | ![Player (iPad)](/Screenshots/Player%20(iPad).png?raw=true) | ![Artists (iPad)](/Screenshots/Artists%20(iPad).png?raw=true) |
 
 
 ## Table of Contents
