@@ -7,9 +7,6 @@ FoodApp is a mobile application that allows users to explore, select, and order 
 |:---:|:---:|:---:|:---:|:---:|
 | Onboarding | Login | Home | Checkout | Profile |
 
-| ![Album](/Screenshots/Album.png?raw=true) | ![Player](/Screenshots/Player.png?raw=true) | ![Queue](/Screenshots/Queue.png?raw=true) |
-| ![Tracks (iPad)](/Screenshots/Tracks%20(iPad).png?raw=true) | ![Album (iPad)](/Screenshots/Album%20(iPad).png?raw=true) | ![Player (iPad)](/Screenshots/Player%20(iPad).png?raw=true) | ![Artists (iPad)](/Screenshots/Artists%20(iPad).png?raw=true) |
-
 
 ## Table of Contents
 - [Features](#features)
