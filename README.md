@@ -1,10 +1,6 @@
 # Food App
 FoodApp is a mobile application that allows users to explore, select, and order their favorite dishes right from their smartphones. Built with Swift and UIKit, this application offers a sleek user experience with robust functionality.
 
-<div align="center">
-       <h1> <img src="https://github.com/farisarie/Weebo/blob/main/Weabo/Assets.xcassets/iTunesArtwork.imageset/iTunesArtwork%402x.png" width="80px"><br/>Food App</h1>
-     </div>
-
 ## Screenshots
 
 | ![Onboarding](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/onboardings.gif?raw=true) | ![Login](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/login.gif?raw=true) | ![Home](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/home.gif?raw=true) | ![Checkout](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/checkout.gif?raw=true) | ![Profile](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/profile.gif?raw=true) |
