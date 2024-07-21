@@ -3,9 +3,7 @@ FoodApp is a mobile application that allows users to explore, select, and order 
 
 ## Screenshots
 
-| ![Onboarding](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/onboardings.gif?raw=true) | ![Login](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/login.gif?raw=true) | ![Home](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/home.gif?raw=true) | ![Checkout](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/checkout.gif?raw=true) | ![Profile](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/profile.gif?raw=true) |
-|:---:|:---:|:---:|:---:|:---:|
-| Onboarding | Login | Home | Checkout | Profile |
+| ![Splash Screen](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/onboardings.gif?raw=true) | ![Onboarding](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/onboarding.gif?raw=true) | ![Login](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/login.gif?raw=true) | ![Home](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/home.gif?raw=true) | ![Checkout](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/checkout.gif?raw=true) | ![Profile](https://github.com/faaarce/Assignment3_Faris/blob/swift-data/Gif/profile.gif?raw=true) | |:---:|:---:|:---:|:---:|:---:|:---:| | Splash Screen | Onboarding | Login | Home | Checkout | Profile |
 
 
 ## Table of Contents
